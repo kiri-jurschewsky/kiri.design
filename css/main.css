@@ -1,0 +1,41 @@
+html {
+  font-family: Alegreya, serif;
+}
+
+h1 {
+  font-family: Megrim,sans-serif;
+}
+
+
+header {
+  text-align: center;
+  font-family: Alegreya, serif;
+}
+
+.logo {
+  width: 30%;
+  display: block;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  color: #0b6288;
+  text-decoration: none;
+}
+
+nav a:hover {
+    color: #a21d28;
+}
+
+img {
+  width: 50%;
+  display: block;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}

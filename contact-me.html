@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>kiri.design</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+</head>
+<body>
+
+  <header class="grid grid-middle masthead section-dark">
+
+    <div class="logo unit xs-1 s-1 m-1-3 l-1-3 gutter-1">
+      <img class="push-0" src="http://via.placeholder.com/350x150" alt="">
+    </div>
+
+    <nav class="nav unit xs-1 s-1 m-2-3 l-2-3 pad-top-half pad-bottom-half">
+      <ul class="push-none list-group-inline">
+        <li class="gutter"><a class="text-right" href="about-me.html">About Me</a></li>
+        <li class="gutter"><a class="text-right current" href="contact-me.html">Contact Me</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <section class="contact pad-t-2 pad-b-2">
+
+    <div class="max-length">
+
+      <h1 class="push-12"><a href="index.html">Kiri Jurschewsky</a></h1>
+
+      <h2>Send me sweet little Email</h2>
+
+      <form class="push-0" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
+
+        <div class="push">
+          <label for="name">Name</label>
+          <input id="name">
+        </div>
+
+        <div class="push">
+          <label for="email">Your email</label>
+          <input id="email" type="email" placeholder="me@me.com" name="email">
+        </div>
+
+        <div class="push">
+          <label for="subject">Subject</label>
+          <select id="subject" name="_sugject">
+            <option>Send some love!</option>
+            <option>General question</option>
+            <option>Just to talk</option>
+            <option>I have a job for you!</option>
+          </select>
+        </div>
+
+        <div class="push">
+          <label for="details">More info</label>
+          <textarea id="details" name="massage">
+          </textarea>
+        </div>
+
+        <div>
+          <button class="btn btn-light" type="submit">Send message</button>
+        </div>
+
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© kiri.design</p>
+  </footer>
+
+</body>
+</html>
