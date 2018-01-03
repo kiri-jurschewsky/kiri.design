@@ -1,5 +1,6 @@
 html {
   font-family: Alegreya, serif;
+  background-color: #d1e6f6;
 }
 
 h1 {
@@ -38,4 +39,12 @@ img {
 footer {
   text-align: center;
   padding: 20px;
+}
+
+.error-p {
+  font-family: Alegreya, serif;
+}
+.error-img img {
+  width: 320px;
+  display: inline-block;
 }

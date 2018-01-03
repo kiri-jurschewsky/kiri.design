@@ -1,6 +1,6 @@
 ---
 layout: default
-----
+---
 
   <header class="grid grid-middle masthead section-dark">
 
@@ -10,8 +10,8 @@ layout: default
 
     <nav class="nav unit xs-1 s-1 m-2-3 l-2-3 pad-top-half pad-bottom-half">
       <ul class="push-none list-group-inline">
-        <li class="gutter"><a class="text-right" href="about-me.html">About Me</a></li>
-        <li class="gutter"><a class="text-right current" href="contact-me.html">Contact Me</a></li>
+        <li itemrop="image" class="gutter"><a class="text-right" href="{{site.baseurl}}/about-me.html">About Me</a></li>
+        <li itemrop="image" class="gutter"><a class="text-right current" href="{{site.baseurl}}/contact-me.html">Contact Me</a></li>
       </ul>
     </nav>
 
@@ -21,9 +21,9 @@ layout: default
 
     <div class="max-length">
 
-      <h1 class="push-12"><a href="index.html">Kiri Jurschewsky</a></h1>
+      <h1 itemprop="name" class="push-12"><a href="index.html">Kiri Jurschewsky</a></h1>
 
-      <h2>Send me sweet little Email</h2>
+      <h2 itemprop="action">Send me sweet little Email</h2>
 
       <form class="push-0" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
 

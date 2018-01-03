@@ -1,6 +1,6 @@
 ---
 layout: default
-----
+---
 
   <header class="grid grid-middle masthead section-dark">
 
@@ -10,8 +10,8 @@ layout: default
 
     <nav class="nav unit xs-1 s-1 m-2-3 l-2-3 pad-top-half pad-bottom-half">
       <ul class="push-none list-group-inline">
-        <li class="gutter"><a class="text-right" href="about-me.html">About Me</a></li>
-        <li class="gutter"><a class="text-right" href="contact-me.html">Contact Me</a></li>
+        <li class="gutter"><a class="text-right" href="{{site.baseurl}}/about-me.html">About Me</a></li>
+        <li class="gutter"><a class="text-right" href="{{site.baseurl}}/contact-me.html">Contact Me</a></li>
       </ul>
     </nav>
 
@@ -22,25 +22,25 @@ layout: default
     <div class="grid pad-t-2 gutter">
 
       <div class="img unit [ xs-1 s-1 m-1-2 l-1-2 ] unit-push-m-1-2 text-center">
-        <img class="img-flex push-1" src="http://via.placeholder.com/350x150" alt="">
-        <img class="img-flex" src="http://via.placeholder.com/350x65" alt="">
-        <p>Skulldugery</p>
-        <p>Descriptive initial capital</p>
+        <img itemrop="image" class="img-flex push-1" src="http://via.placeholder.com/350x150" alt="">
+        <img itemrop="image" class="img-flex" src="http://via.placeholder.com/350x65" alt="">
+        <p itemprop="name">Skulldugery</p>
+        <p itemprop="description">Descriptive initial capital</p>
       </div>
 
       <div class="content gutter-half unit [ xs-1 s-1 m-1-2 l-1-2 unit-pull-m-1-2 ]">
 
-          <h1 class="push-12"><a href="index.html">Kiri Jurschewsky</a></h1>
+          <h1 itemprop="name" class="push-12"><a href="index.html">Kiri Jurschewsky</a></h1>
 
           <div class="nav unit xs-1 s-1 m-2-3 l-2-3 pad-top-half pad-bottom-half">
             <nav>
               <ul class="push-none list-group text-left giga pad-t-3">
-                <li class=""><a href="fox.html">Illustration/Fox in Winter</a></li>
-                <li class="gutter current"><a href="skulldugery.html">Illustration/Skulldugery</a></li>
-                <li class=""><a href="dig.html">Illustration/Digital</a></li>
-                <li class=""><a href="paw.html">Logo/Little Paws</a></li>
-                <li class=""><a href="duma.html">Motion/Duma</a></li>
-                <li class=""><a href="portait.html">Dwaing/Portrait</a></li>
+                <li class=""><a href="{{site.baseurl}}/fox.html">Illustration/Fox in Winter</a></li>
+                <li class="gutter current"><a href="{{site.baseurl}}/skulldugery.html">Illustration/Skulldugery</a></li>
+                <li class=""><a href="{{site.baseurl}}/dig.html">Illustration/Digital</a></li>
+                <li class=""><a href="{{site.baseurl}}/paw.html">Logo/Little Paws</a></li>
+                <li class=""><a href="{{site.baseurl}}/duma.html">Motion/Duma</a></li>
+                <li class=""><a href="{{site.baseurl}}/portait.html">Dwaing/Portrait</a></li>
               </ul>
             </nav>
           </div>
