@@ -1,10 +1,10 @@
 html {
   font-family: Alegreya, serif;
-  background-color: #d1e6f6;
 }
 
 h1 {
   font-family: Megrim,sans-serif;
+  color:
 }
 
 
@@ -36,6 +36,11 @@ img {
   display: block;
 }
 
+.me {
+  width: 100%
+  display: inline-block;
+}
+
 footer {
   text-align: center;
   padding: 20px;
@@ -47,4 +52,7 @@ footer {
 .error-img img {
   width: 320px;
   display: inline-block;
+}
+
+.logo {
 }
