@@ -18,6 +18,10 @@ header {
   display: block;
 }
 
+.side-nav {
+  position: fixed;
+}
+
 nav {
   text-align: center;
 }
@@ -31,8 +35,12 @@ nav a:hover {
     color: #a21d28;
 }
 
+.me img {
+  width: 100%;
+}
+
 img {
-  width: 50%;
+  width: 100%;
   display: block;
 }
 
