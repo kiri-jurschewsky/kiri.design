@@ -2,28 +2,28 @@
 layout: default
 ---
 
-  <header class="grid grid-middle masthead section-dark">
-
-    <div class="logo unit xs-1 s-1 m-1-3 l-1-3 gutter-1">
-      <a href="{{site.baseurl}}/index.html">
-      <img class="push-0 logo center" src="images/logo.png" alt="">
-      </a>
-    </div>
-
-    <nav class="nav unit xs-1 s-1 m-2-3 l-2-3 pad-top-half pad-bottom-half">
-      <ul class="push-none list-group-inline">
-        <li class="gutter"><a class="text-right" href="{{site.baseurl}}/about-me.html">About Me</a></li>
-        <li class="gutter"><a class="text-right" href="{{site.baseurl}}/contact-me.html">Contact Me</a></li>
-      </ul>
-    </nav>
-
-  </header>
-
   <main>
 
     <div class="grid pad-t-2 gutter">
 
       <div class="content gutter-half unit [ xs-1 s-1 m-1-3 l-1-3 ]">
+
+
+    <input type="checkbox" class="nav-check hide-custom-input" id="nav-check">
+    <!-- This is the button we’d click to open/close the navigation -->
+    <label class="nav-label" for="nav-check">
+      <img class="nav-open" src="images/nav-icon.jpg" alt="Open Navigation">
+      <img class="nav-close" src="images/nav-icon-close.jpg" alt="Close Navigation">
+    </label>
+    <nav class="nav-toggle pin-t">
+      <ul class="push-0">
+        <li><a href="{{site.baseurl}}/illustration.html">Illustration</a></li>
+        <li><a href="{{site.baseurl}}/applications.html">Applications</a></li>
+        <li><a href="{{site.baseurl}}/motion.html">Motion</a></li>
+        <li><a href="{{site.baseurl}}/mixed-media.html">Mixed Media</a></li>
+        <li><a href="{{site.baseurl}}/branding.html">Branding</a></li>
+      </ul>
+    </nav>
 
           <div class="nav pad-top-half pad-bottom-half side-nav">
             <nav>
@@ -61,13 +61,3 @@ layout: default
       </div>
 
   </main>
-
-
-  <footer>
-
-    <a class="micro" href="https://www.instagram.com/kiri.design/">Instagram</a>
-    <a class="micro" href="https://www.pinterest.ca/jurschewsky/">Pintrest</a>
-    <a class="micro" href="https://www.behance.net/search?content=projects&sort=appreciations&time=week&search=Kiri%20Jurschewsky">Behace</a>
-    <p>© kiri.design</p>
-
-  </footer>
