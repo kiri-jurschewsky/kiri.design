@@ -4,7 +4,16 @@ html {
 
 h1 {
   font-family: Megrim,sans-serif;
-  color:
+  color: #003462
+}
+
+h2 {
+  font-family: Alegreya, serif;
+  color: #003462
+}
+
+.current {
+  color: #d1e6f7;
 }
 
 
@@ -42,6 +51,15 @@ nav a:hover {
 img {
   width: 100%;
   display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #0b6288;
+}
+
+a:hover {
+    color: #d1e6f7;
 }
 
 .me {
